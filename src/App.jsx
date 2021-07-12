@@ -13,7 +13,7 @@ export default () => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-            <Card titulo="#4 Desafio Aleatório">
+            <Card titulo="#4 Desafio Aleatório" color="#080">
                 <Aleatorio min={1} max={60}/>
             </Card>
             
