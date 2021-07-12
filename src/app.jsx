@@ -10,14 +10,25 @@ import Fragment from '../src/components/basics/Fragment';
 export default () => (
     <div id="app">
         <h1>Fundamentos React</h1>
-        <Card titulo="Exemplo de card" />
-        <Aleatorio min={1} max={60}/>
-        <Fragment />
-        <WithParams
+
+        <Card titulo="#4 Desafio Aleatório">
+            <Aleatorio min={1} max={60}/>
+        </Card>
+        
+        <Card titulo="#3 Fragmento">
+            <Fragment />
+        </Card>
+       
+        <Card titulo="#2 Com Parametro">
+            <WithParams
                 titulo="Situação do Aluno" 
                 aluno="Pedro"
                 nota={9.3} 
-        />
-        <First />
+            />
+        </Card>
+
+        <Card titulo="#1 Primeiro Componente">
+            <First />
+        </Card>
     </div>
 );
