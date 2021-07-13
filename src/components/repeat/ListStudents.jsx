@@ -8,9 +8,7 @@ export default props => {
     })
     return(
         <div>
-            <ul>
-                {StudentsLI}
-            </ul>
+            <ul>{StudentsLI}</ul>
         </div>
     )
 }
