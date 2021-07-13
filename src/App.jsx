@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 
+import DirectFather from './components/communication/DirectFather';
 import UsuarioInfo from './components/conditional/UsuarioInfo';
 import ParOuImpar from './components/conditional/ParOuImpar';
 import ProductsList from './components/repeat/ProductsTable';
@@ -19,6 +20,10 @@ export default () => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#9 - Comunicação Direta" color="#59323C">
+                <DirectFather></DirectFather>
+            </Card>
+
             <Card titulo="#8 - Renderização Condicional" color ="#982395">
                 <ParOuImpar numero={21} />
                 <UsuarioInfo usuario={{nome: 'Fernando'}}></UsuarioInfo>
