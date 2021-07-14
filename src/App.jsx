@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 
+import IndirectFather from './components/communication/IndirectFather';
 import DirectFather from './components/communication/DirectFather';
 import UsuarioInfo from './components/conditional/UsuarioInfo';
 import ParOuImpar from './components/conditional/ParOuImpar';
@@ -20,6 +21,9 @@ export default () => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#10 - Comunicação Indireta" color="#8BAB39">
+                <IndirectFather></IndirectFather>
+            </Card>
             <Card titulo="#9 - Comunicação Direta" color="#59323C">
                 <DirectFather></DirectFather>
             </Card>

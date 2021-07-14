@@ -18,13 +18,13 @@ export default props => {
     return(
         <div className="TabelaProdutos">
             <table border="1">
-                <thread>
+                <thead>
                     <tr>
                         <th>Id</th>
                         <th>Nome</th>
                         <th>Preço</th>
                     </tr>
-                </thread>
+                </thead>
                 <tbody>
                     <tr>
                         {getLines()}
