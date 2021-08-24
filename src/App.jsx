@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 
+import Input from './components/form/input';
 import IndirectFather from './components/communication/IndirectFather';
 import DirectFather from './components/communication/DirectFather';
 import UsuarioInfo from './components/conditional/UsuarioInfo';
@@ -21,6 +22,9 @@ export default () => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#11 - Input" color="#995166">
+                <Input></Input>
+            </Card>
             <Card titulo="#10 - Comunicação Indireta" color="#8BAB39">
                 <IndirectFather></IndirectFather>
             </Card>
