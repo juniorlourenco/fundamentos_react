@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 
+import Counter from './components/counter/Counter';
 import Input from './components/form/input';
 import IndirectFather from './components/communication/IndirectFather';
 import DirectFather from './components/communication/DirectFather';
@@ -22,7 +23,10 @@ export default () => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-            <Card titulo="#11 - Input" color="#995166">
+            <Card titulo="#12 - Contador" color="#424242">
+                <Counter initialNumber={10}></Counter>
+            </Card>
+            <Card titulo="#11 - Componente Controlado" color="#995166">
                 <Input></Input>
             </Card>
             <Card titulo="#10 - Comunicação Indireta" color="#8BAB39">
